@@ -1,0 +1,14 @@
+{
+  "name": "cloudflare-etcd-updater",
+  "version": "1.0.0",
+  "description": "updates cloudflare dns only if there is a diff provided",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "0x4139@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "cloudflare-api": "^1.0.2"
+  }
+}
