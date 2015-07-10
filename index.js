@@ -14,6 +14,7 @@ client.execute({
 }).then(function (result) {
 
     //update what is necessary
+		if(result.response.recs.objs)
     result.response.recs.objs.forEach(function (record) {
         if (dns_zone[record.display_name] && dns_zone[record.display_name] != record.content) {
             console.log('updating ', record.display_name);
